@@ -1,4 +1,3 @@
-
 def matrix_chain_order(dims):
 
     n = len(dims) - 1
