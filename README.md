@@ -1,4 +1,4 @@
-# DAA Experiment 6 – Matrix Chain Multiplication using Dynamic Programming
+# DAA Experiment 6 – Matrix Chain Multiplication 
 
 This repository contains the implementation of **Experiment 6** for the **Design and Analysis of Algorithms (DAA)** laboratory. The program solves the **Matrix Chain Multiplication (MCM)** problem using the **Dynamic Programming** approach to determine the optimal order of matrix multiplication with the minimum number of scalar multiplications.
 
