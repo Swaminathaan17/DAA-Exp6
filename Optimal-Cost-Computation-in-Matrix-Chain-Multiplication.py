@@ -1,10 +1,8 @@
 def matrix_chain_order(dims):
 
     n = len(dims) - 1
-    # m[i][j] = minimum multiplications for matrices i..j
     m = [[0] * (n + 1) for _ in range(n + 1)]
     s = [[0] * (n + 1) for _ in range(n + 1)]
-    # l is the chain length
     for l in range(2, n + 1):
         for i in range(1, n - l + 2):
             j = i + l - 1
@@ -35,7 +33,7 @@ def print_dp_table(m, n):
             if j < i: print(f'{"---":>9}', end='')
             else: print(f'{m[i][j]:>9}', end='')
     print()
-    # A1(10x30), A2(30x5), A3(5x60), A4(60x10)
+    
 dims = [10, 30, 5, 60, 10]
 n = len(dims) - 1
 print(f'Matrix Dimensions:')
